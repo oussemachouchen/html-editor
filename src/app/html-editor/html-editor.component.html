@@ -1,0 +1,18 @@
+
+<div class="container" [ngClass]="{'text-right': isRtl}">
+    <header class="header">
+      <h1>AngularEditor</h1>
+      <p>Exemple to show how to edit html pages content dynamically</p>    
+    </header>
+      <angular-editor [(ngModel)]="htmlContent" [config]="config"></angular-editor>
+      <hr class="m-3">
+    <h3 class="html-header">HTML Output</h3>
+    <div class="html">
+      {{ htmlContent }}
+    </div>
+    <hr class="m-3">
+    <h2>Html preview</h2>
+    <div class="top">
+      <div [innerHtml]="htmlContent"></div>
+    </div>
+  </div>

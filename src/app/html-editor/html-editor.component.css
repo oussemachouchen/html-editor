@@ -1,0 +1,13 @@
+.container{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.mainHeader{
+    color:#2be734;
+    font-size: 36px;
+}
+.text-right{
+    text-align: right!important;
+}
